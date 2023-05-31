@@ -71,7 +71,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
   }
@@ -94,6 +94,19 @@ body {
 
 .logo-color-header {
   color: var(--primary-text-color);
+}
+
+.mobile-menu-open-icon {
+  fill: #2e2f42;
+}
+
+.menu {
+  display: flex;
+  display: none;
+}
+.contacts-header {
+  display: flex;
+  display: none;
 }
 
 /* ...............MOBILE................ */
