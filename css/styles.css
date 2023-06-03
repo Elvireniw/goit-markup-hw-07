@@ -77,11 +77,12 @@ body {
   margin-right: auto;
 }
 
-/* @media screen and (max-width: 428px) {
+@media screen and (max-width: 428px) {
   .container-tablet {
-    width: 428px;
+    width: 396px;
+    padding: 0;
   }
-} */
+}
 
 @media screen and (min-width: 1158px) {
   .container-tablet {
