@@ -197,7 +197,6 @@ body {
 }
 
 .mobile-menu-container {
-  height: 100%;
   position: relative;
   padding: 80px 20px 40px 40px;
 }
@@ -237,7 +236,7 @@ body {
   margin-bottom: 40px;
 }
 
-.mobile-bottom-side {
+.mobile-menu-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
