@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>webstudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,28 +27,18 @@
           >
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link current link" href="./index.html">Studio</a>
+              <a class="menu-link link" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+              <a class="menu-link current link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li class="menu-item">
               <a class="menu-link link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
-
-        <!-- Button Burger Menu -->
-        <button
-          class="mobile-menu-open js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-          type="button"
-        >
-          <svg class="mobile-menu-open-icon" width="32" height="22">
-            <use href="./images/icons.svg#icon-menu-hamburger"></use>
-          </svg>
-        </button>
 
         <address class="contacts-header">
           <ul class="contacts-header-list list">
@@ -62,83 +51,11 @@
             </li>
             <li class="contacts-header-item link">
               <a class="contacts-header-link link" href="tel:+110001111111"
-                >+11 000 111 11 11</a
+                >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
-      </div>
-
-      <!-- Mobile Menu -->
-      <div class="mobile-menu js-menu-container" id="mobile-menu">
-        <div class="mobile-menu-container container">
-          <button class="mobile-menu-close-btn js-close-menu" type="button">
-            <svg class="mobile-menu-close-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-          <ul class="mobile-menu-list list">
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link current link" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link link" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="mobile-menu-item">
-              <a class="mobile-menu-link link" href="">Contacts</a>
-            </li>
-          </ul>
-          <address class="mobile-menu-contacts">
-            <ul class="mobile-menu-contacts-list list">
-              <li class="mobile-menu-contacts-item link">
-                <a class="mobile-menu-phone-link link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="mobile-menu-contacts-item link">
-                <a
-                  class="mobile-menu-e-mail-link link"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-          </address>
-          <ul class="social-list list">
-            <li class="social-list-item">
-              <a class="social-list-link" href="">
-                <svg class="social-list-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a class="social-list-link" href="">
-                <svg class="social-list-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a class="social-list-link" href="">
-                <svg class="social-list-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list-item">
-              <a class="social-list-link" href="">
-                <svg class="social-list-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
     </header>
 
@@ -171,13 +88,7 @@
             <li class="portfolio-item">
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
-                  <img
-                    srcset="./images/img-1m.jpg 1x, ./images/img-1@2x.jpg 2x"
-                    src="./images/img-1m.jpg"
-                    alt="banking-app"
-                    width="396"
-                    height="280"
-                  />
+                  <img src="./images/img-1.jpg" alt="banking-app" width="360" />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -185,51 +96,7 @@
                   </p>
                 </div>
                 <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Banking App Interface Concept</h2>
-                  <p class="portfolio-text">App</p>
-                </div>
-              </a>
-            </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="overlay-wrapper">
-                  <img
-                    srcset="./images/img-2m.jpg 1x, ./images/img-2@2x.jpg 2x"
-                    src="./images/img-2m.jpg"
-                    alt="cashless-payment"
-                    width="396"
-                    height="280"
-                  />
-                  <p class="overlay">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
-                <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Cashless Payment</h2>
-                  <p class="project-text">Marketing</p>
-                </div>
-              </a>
-            </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="overlay-wrapper">
-                  <img
-                    srcset="./images/img-3m.jpg 1x, ./images/img-3@2x.jpg 2x"
-                    src="./images/img-3m.jpg"
-                    alt="meditation-app"
-                    width="396"
-                    height="280"
-                  />
-                  <p class="overlay">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
-                <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Meditation App</h2>
+                  <h2 class="project-title">Banking App Interface Concept</h2>
                   <p class="project-text">App</p>
                 </div>
               </a>
@@ -238,10 +105,50 @@
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
                   <img
-                    srcset="./images/img-4m.jpg 1x, ./images/img-4@2x.jpg 2x"
-                    src="./images/img-4m.jpg"
-                    width="396"
-                    height="280"
+                    src="./images/img-2.jpg"
+                    alt="cashless-payment"
+                    width="360"
+                  />
+                  <p class="overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="portfolio-card-wrapper">
+                  <h2 class="project-title">Cashless Payment</h2>
+                  <p class="project-text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="portfolio-link link" href="">
+                <div class="overlay-wrapper">
+                  <img
+                    src="./images/img-3.jpg"
+                    alt="meditation-app"
+                    width="360"
+                    height="300"
+                  />
+                  <p class="overlay">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="portfolio-card-wrapper">
+                  <h2 class="project-title">Meditation App</h2>
+                  <p class="project-text">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a class="portfolio-link link" href="">
+                <div class="overlay-wrapper">
+                  <img
+                    src="./images/img-4.jpg"
+                    width="360"
+                    height="300"
                     alt="taxi-service"
                   />
                   <p class="overlay">
@@ -252,7 +159,7 @@
                 </div>
 
                 <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Taxi Service</h2>
+                  <h2 class="project-title">Taxi Service</h2>
                   <p class="project-text">Marketing</p>
                 </div>
               </a>
@@ -261,10 +168,9 @@
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
                   <img
-                    srcset="./images/img-5m.jpg 1x, ./images/img-5@2x.jpg 2x"
-                    src="./images/img-5m.jpg"
-                    width="396"
-                    height="280"
+                    src="./images/img-5.jpg"
+                    width="360"
+                    height="300"
                     alt="screen-illustrations"
                   />
                   <p class="overlay">
@@ -274,7 +180,7 @@
                   </p>
                 </div>
                 <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Screen Illustrations</h2>
+                  <h2 class="project-title">Screen Illustrations</h2>
                   <p class="project-text">Design</p>
                 </div>
               </a>
@@ -283,11 +189,10 @@
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
                   <img
-                    srcset="./images/img-6m.jpg 1x, ./images/img-6@2x.jpg 2x"
-                    src="./images/img-6m.jpg"
+                    src="./images/img-6.jpg"
                     alt="online-courses"
-                    width="396"
-                    height="280"
+                    width="360"
+                    height="300"
                   />
                   <p class="overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -296,7 +201,7 @@
                   </p>
                 </div>
                 <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Online Courses</h2>
+                  <h2 class="project-title">Online Courses</h2>
                   <p class="project-text">Marketing</p>
                 </div>
               </a>
@@ -305,10 +210,9 @@
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
                   <img
-                    srcset="./images/img-7m.jpg 1x, ./images/img-7@2x.jpg 2x"
-                    src="./images/img-7m.jpg"
-                    width="396"
-                    height="280"
+                    src="./images/img-7.jpg"
+                    width="360"
+                    height="300"
                     alt="instagram-stories-concept"
                   />
                   <p class="overlay">
@@ -318,7 +222,7 @@
                   </p>
                 </div>
                 <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-titlele">Instagram Stories Concept</h2>
+                  <h2 class="project-title">Instagram Stories Concept</h2>
                   <p class="project-text">Design</p>
                 </div>
               </a>
@@ -327,10 +231,9 @@
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
                   <img
-                    srcset="./images/img-8m.jpg 1x, ./images/img-8@2x.jpg 2x"
-                    src="./images/img-8m.jpg"
-                    width="396"
-                    height="280"
+                    src="./images/img-8.jpg"
+                    width="360"
+                    height="300"
                     alt="organic-food"
                   />
                   <p class="overlay">
@@ -349,10 +252,9 @@
               <a class="portfolio-link link" href="">
                 <div class="overlay-wrapper">
                   <img
-                    srcset="./images/img-9m.jpg 1x, ./images/img-9@2x.jpg 2x"
-                    src="./images/img-9m.jpg"
-                    width="396"
-                    height="280"
+                    src="./images/img-9.jpg"
+                    width="360"
+                    height="300"
                     alt="fresh-coffee"
                   />
                   <p class="overlay">
@@ -362,7 +264,7 @@
                   </p>
                 </div>
                 <div class="portfolio-card-wrapper">
-                  <h2 class="portfolio-title">Fresh Coffee</h2>
+                  <h2 class="project-title">Fresh Coffee</h2>
                   <p class="project-text">Web Site</p>
                 </div>
               </a>
@@ -439,12 +341,5 @@
         </div>
       </div>
     </footer>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
