@@ -56,12 +56,6 @@ body {
   padding-bottom: 96px;
 }
 
-@media screen and (max-width: 428px) {
-  .section {
-    max-width: 428px;
-  }
-}
-
 .container {
   padding-left: 16px;
   padding-right: 16px;
@@ -517,6 +511,40 @@ body {
   margin-right: auto;
 }
 
+@media screen and (max-width: 428px) {
+  .hero {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/Dark-bgm.jpg');
+  }
+}
+
+@media screen and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/Dark-bgt.jpg');
+  }
+}
+
 @media screen and (min-width: 1158px) {
   .main-title {
     font-weight: 700;
@@ -545,45 +573,6 @@ body {
     padding-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 767px),
-  screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url('../images/Dark-bgm.jpg');
-  }
-}
-
-@media screen and (min-width: 768px),
-  screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url('../images/Dark-bgt.jpg');
-  }
-}
-
-@media screen and (min-width: 1158px),
-  screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url('../images/bg-hero.jpg');
   }
 }
 
@@ -1442,8 +1431,9 @@ body {
 
 @media screen and (max-width: 428px) {
   .modal {
-    width: 85%;
+    width: 89%;
     height: 95%;
+    padding: 72px 16px 24px 16px;
   }
 }
 
