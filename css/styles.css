@@ -235,8 +235,10 @@ body {
   margin-bottom: 40px;
 }
 
-.mobile-menu-list {
-  margin-bottom: 284px;
+.mobile-bottom-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-menu-link {
