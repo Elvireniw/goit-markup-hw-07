@@ -69,12 +69,22 @@ body {
   margin-right: auto;
 }
 
-.container-tablet {
-  width: 584px;
-  padding-right: 16px;
-  padding-left: 16px;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 768px) {
+  .container-our-team {
+    width: 584px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container-our-team {
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 @media screen and (max-width: 428px) {
@@ -82,16 +92,6 @@ body {
     width: 100%;
     /* max-width: 396px; */
     padding: 0;
-  }
-}
-
-@media screen and (min-width: 1158px) {
-  .container-tablet {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -355,7 +355,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .contacts-header-list {
-    text-align: right;
+    text-align: center;
   }
 }
 
@@ -386,6 +386,12 @@ body {
 @media screen and (min-width: 768px) {
   .logo-link-header {
     margin-right: 120px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .logo-link-header {
+    margin-right: 76px;
   }
 }
 
@@ -931,7 +937,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 768px) {
   .customers-list {
     row-gap: 72px;
     column-gap: 16px;
@@ -1270,7 +1276,7 @@ body {
 
 @media screen and (max-width: 428px) {
   .footer-text {
-    width: 268px;
+    width: 75%;
   }
 }
 
@@ -1398,7 +1404,7 @@ body {
 
 /*==============Subscribe==============*/
 
-/*==============Modal Window===========*/
+/*================ Modal window =================*/
 
 .backdrop {
   position: fixed;
@@ -1424,7 +1430,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 392px;
+  width: 408px;
   min-height: 576px;
   height: 584px;
   background-color: #fcfcfc;
@@ -1432,7 +1438,13 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  overflow: scroll;
+}
+
+@media screen and (max-width: 428px) {
+  .modal {
+    width: 85%;
+    height: 95%;
+  }
 }
 
 .modal-close-btn {
@@ -1640,4 +1652,4 @@ body {
   color: #ffffff;
 }
 
-/*==============Modal Window===========*/
+/*================ Modal field ==================*/
