@@ -40,9 +40,11 @@ button {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 body {
   font-family: var(--primary-font);
   color: #434455;
